@@ -7,7 +7,7 @@ var vuepressConfig = async () => {
 
   return {
     dest: path.join(__dirname, '../../dist'),//打包目录
-    base: '/vue-comp-docs/dist',
+    base: '/vue-comp-docs/dist/',
     title: '金服小程序UI组件库',
     themeConfig: {
       search: true,
