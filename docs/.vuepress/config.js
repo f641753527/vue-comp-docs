@@ -8,14 +8,14 @@ var vuepressConfig = async () => {
   return {
     dest: path.join(__dirname, '../../dist'),//打包目录
     base: '/vue-comp-docs/dist/',
-    title: '金服小程序UI组件库',
+    title: '小程序UI组件库',
     themeConfig: {
       search: true,
       nav:[
         {
-          text: '基础组件',
+          text: '开发指南',
           items: [
-            { text: '前端基础', link: '/components/Button/Button.html' }
+            { text: '组件规范', link: 'https://www.npmjs.com/package/vue-docgen-api' }
           ]
         } 
       ], 
